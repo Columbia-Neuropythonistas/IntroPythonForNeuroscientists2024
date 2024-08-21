@@ -25,7 +25,7 @@ Please take some time to go through the following videos, so that you have a gen
         1. Open the Terminal app by pressing Command + Spacebar key combination to search by using Spotlight.
         2. In the search box, enter Terminal. In the results set select Terminal app, and then press Return to start the app.
     - Windows:
-        1. Check if you have anaconda prompt installed. If not, it is unlikely that you have conda installed. Go directly to 'Installing Miniconda'.
+        1. Check if you have anaconda prompt installed by typing in `anaconda prmpt` into the search bar. If not, it is unlikely that you have conda installed. Go directly to 'Installing Miniconda'.
     - Linux: 
         1. Open a Linux terminal session. The instructions for opening this session depend on your distribution and version of Linux. Check the online documentation for your Linux distribution for instructions on how to open a terminal session.
 - Check if conda is already installed by typing `conda --version` in terminal and pressing enter.
