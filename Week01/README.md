@@ -41,10 +41,21 @@ Please take some time to go through the following videos, so that you have a gen
         2. Look at the Chip in the Overview.
         3. Select the appropriate miniconda download link ending in `.pkg`
     - Linux: The first option under linux should be appropriate for your computers.
-- Install the downloaded miniconda
-- Windows users: You should now have 'Anaconda Prompt (Miniconda3)' set up. Check that it installed properly by searching for it in your start menu and opening it. We will not be using this terminal heavily during class, but it is essential that you have it installed.
-- Check that the install worked by closing terminal if it is open, reopening it, and typing `conda --version`. The output should say conda and a version number, e.g. `conda 4.12.0`.
-#### DELIVERABLE 1: Submit a screenshot of this to the courseworks assignment.
+- Install the downloaded miniconda. If there is an option during installation to add anaconda to PATH, please make sure that it is checked.
+- Windows users: You should now have 'Anaconda Powershell Prompt (Miniconda3)' set up. Check that it installed properly by searching for `Anaconda Powershell Prompt` (note: not Anaconda Prompt) in your start menu and open it. In order to finalize set up, there are a few quick steps:
+    - Open Anaconda Powershell Prompt (NOTE AGAIN: not anaconda prompt) and type in (or copy and paste)
+      ```
+      conda init powershell
+      ```
+      and hit enter. If you get an error, try retyping it, making sure that you match case and spaces. If this does not work, please email us ASAP, and proceed through these instructions using `Anaconda Prompt` wherever a terminal is mentioned.
+    - Next, type in the following and hit enter:
+      ```
+      set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+      ```
+    - Open terminal once again, by typing `terminal` in the search bar and hitting enter. You should open into a window that says `Windows Powershell` at the top, and you can proceed with the instructions.
+
+- Check that the install worked by closing terminal if it is open, reopening it, and typing `conda --version` and hitting enter. The output should say conda and a version number, e.g. `conda 4.12.0`.
+#### DELIVERABLE 1: Submit a screenshot of the output above to the courseworks assignment.
 
 
 ## Install VSCode
@@ -56,7 +67,7 @@ Please take some time to go through the following videos, so that you have a gen
     - For Linux, you can download either a .deb or a .rpm file. Which one you should use depends on your distribution, more specifically whether it is Debian- or Redhat-based. (Ubuntu, for example, is Debian-based and would need a .deb file.)
 
 ## Making your first Conda Environment
-Open up your preferred command line interface (e.g. Terminal for Mac, AnacondaPrompt for Windows, konsole for Ubuntu, etc). Make sure that conda is active. Depending on your install settings, you may have to manually activate conda using the command `conda activate`. When conda is active, there should be a parentheses indicating which environment you are using preceding your input line.
+Open up your preferred command line interface (e.g. Terminal for Mac, Windows Terminal/Powershell for Windows, konsole for Ubuntu, etc). Make sure that conda is active. Depending on your install settings, you may have to manually activate conda using the command `conda activate`. When conda is active, there should be a parentheses indicating which environment you are using preceding your input line.
 
 ![image](image.png)
 
@@ -83,7 +94,9 @@ Confirm which packages your environment has by entering the following command:
 ```
 conda list 
 ```
-This command will print out all the packages that are currently installed in the currently active environment, as well as its version numbers. **Screenshot this and submit it to the courseworks prework assignment.**
+This command will print out all the packages that are currently installed in the currently active environment, as well as its version numbers. 
+
+#### DELIVERABLE 2: **Screenshot this and submit it to the courseworks prework assignment.**
 
 
 
@@ -103,7 +116,11 @@ First we’ll make sure that you don’t already have an SSH key. Open your term
 ```
 ls -al ~/.ssh
 ```
-If you see two files with the naming pattern ```id_<some numbers and letters>``` and ```id_<the same numbers and letters>.pub```, you already have an SSH key. Skip to step 3. If you don’t or you get an error that the folder does not exist, continue with step 2.
+Windows users, you may receive an error. That's not an issue - please type in:
+```
+ls -Force ~/.ssh
+```
+If you see two files with the naming pattern ```id_<some numbers and letters>``` and ```id_<the same numbers and letters>.pub```, you already have an SSH key. You may not have the id prefix, but if a combination of a file with and without a `.pub` exist, you have an SSH key already. Skip to step 3. If you don’t or you get an error that the folder does not exist, continue with step 2.
 #### Step 2. Generate a public/private key pair:
 Enter in the terminal:
 ```
@@ -130,15 +147,15 @@ Print out the public key by entering the following command in terminal:
 ```
 cat ~/.ssh/id_ed25519.pub
 ```
-(or with some other name if your key has a different name).
+(or with some other name if your key has a different name). You will get a long string of letters and numbers, as well as the name of the algorithm that was used to generate the key.
 
-Next, select everything that was printed out and copy it to your clipboard.
+Next, select everything that was printed out and copy it to your clipboard. Make sure you only copy the string of text that was printed out when you ran the command above, rather than copying and pasting the text that is part of your terminal.
 
 Open up Github in your browser. In the upper-right corner of Github, click your profile photo, then click Settings. In the "Access" section of the sidebar, click SSH and GPG keys. Then, click New SSH key or Add SSH key.
 
 Add a title that describes the laptop you’re currently using (e.g. “My Laptop”). In the "Key" field, paste your public key. Click Add SSH key.
 
-Please take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
+#### DELIVERABLE 3: take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
 
  
 # Resources
