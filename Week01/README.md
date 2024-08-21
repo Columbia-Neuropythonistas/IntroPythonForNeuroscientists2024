@@ -1,4 +1,4 @@
-# Preparation for Class
+# Preparation for Class: HW0
 Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#set-up-conda), [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#install-vscode), and [Set Up Github](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#Setting-Up-Github) by Monday, 9/2/2024 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, **prepare for submission to courseworks the following:**
 - a screenshot of the conda version
 - a screenshot of the printed hello world in VS code
