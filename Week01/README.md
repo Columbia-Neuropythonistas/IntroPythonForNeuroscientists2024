@@ -1,5 +1,5 @@
 # Preparation for Class
-Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#set-up-conda) and [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#install-vscode) by Monday, 9/2/2024 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, **prepare for submission to courseworks the following:**
+Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#set-up-conda), [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#install-vscode), and [Set Up Github](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/blob/main/Week01/README.md#Setting-Up-Github) by Monday, 9/2/2024 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, **prepare for submission to courseworks the following:**
 - a screenshot of the conda version
 - a screenshot of the printed hello world in VS code
 - a screenshot of the terminal output from step #3 in Set Up Your Github SSH Keys
@@ -102,12 +102,13 @@ This command will print out all the packages that are currently installed in the
 
 
 
-## Make a Github Account
+## Setting UP Github
+### Make a Github account
 - If you don't have a github account already, go [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to make one. I would recommend using an academic email because students get github pro for free, but you can always add other email addresses to your profile later. 
 - Submit your github username to this [google form](https://forms.gle/A3DPAa7r9gpPeUku5).
 
-## Set up your Github SSH Keys 
-### What is SSH?
+### Set up your Github SSH Keys 
+#### What is SSH?
 SSH makes sure that your local computer is allowed to have access to your Github account. To do so, you’re essentially sharing a password with Github that can be used to authenticate your identity. Except with one complication: Github has a public version of the password (the “public key”), whereas you have the private version (“private key”) as well. This ensures that someone who sees your public key would not be able to pretend to be you. You will only be authenticated if you have both the public and the private key. Importantly, Github can make sure that this is the case without ever seeing the private key.
 
 Thus, to set up an SSH connection, you need to do two things: generate your own public/private key pair and upload the private key to Github.
