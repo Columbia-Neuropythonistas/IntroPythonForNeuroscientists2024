@@ -75,7 +75,7 @@ Open up your preferred command line interface (e.g. Terminal for Mac, Windows Te
 
 Now, let's make our first conda environment! Type the following in your command line interface (CLI).
 ```
-conda create -n intropython python=3.10 numpy seaborn pandas scikit-learn scipy jupyterlab git
+conda create -n intropython python numpy seaborn pandas scikit-learn scipy jupyterlab git
 ```
 Note that the `-n` flag is short for `--name`, where all it does is specify the name of the environment. The rest of the command tells conda what version of python to install and the other packages you would like in your virtual environment to start off. Note that you can always `conda install` more packages into that environment later.
 
