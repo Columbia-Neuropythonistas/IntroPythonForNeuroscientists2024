@@ -12,6 +12,7 @@ Please do the rest of the preparation before the first class.
 # IMPORTANT!!!
 Please make sure you read ALL of the text and do ALL the tasks below.
 ## Video Introductions to Command Line and Git
+Please take some time to go through the following videos, so that you have a general familiarity with the terminal, git, and conda by the first class. This is a lot of material, so it's alright if you don't get it all in one go! We will also take some time at the beginning of class to go over these concepts once again.
 1. [Introduction to the Command Line (5m 40s)](https://www.youtube.com/watch?v=cgVbqxtx3hU)
 2. [Introduction to Git (Watch the first 6m 32s)](https://www.youtube.com/embed/uR6G2v_WsRA?end=392). The remainder of the video is good to watch for an introduction to how we will be using git in class, but is not necessary if you are short on time.
 3. [Introduction to Git Remotes / Github (Watch from 1:30-4:48 )](https://www.youtube.com/embed/Gg4bLk8cGNo?start=90&end=288)
