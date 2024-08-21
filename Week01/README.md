@@ -60,8 +60,10 @@ Please take some time to go through the following videos, so that you have a gen
 
 ## Install VSCode
 **Please follow the FULL tutorial!!!** 
-- Follow the instructions for your operating system (Linux, Windows, or Mac) here: https://docs.microsoft.com/en-us/learn/modules/python-install-vscode/
-- Once you've gone through the instructions above, please take a screenshot of your printed hello world, and submit it on the courseworks.
+- Follow the instructions for your operating system (Linux, Windows, or Mac) [here:](https://docs.microsoft.com/en-us/learn/modules/python-install-vscode/)
+
+#### DELIVERABLE 2: Once you've gone through the instructions above, please take a screenshot of your printed hello world, and submit it to the courseworks.
+
 - Troubleshooting:
     - If `code .` doesn't work for you, try using the Uninstall 'code' command in the PATH command before the "Install 'code' command in PATH" command following the instructions [here](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) ([source](https://stackoverflow.com/questions/29955500/code-is-not-working-in-on-the-command-line-for-visual-studio-code-on-os-x-ma)).
     - For Linux, you can download either a .deb or a .rpm file. Which one you should use depends on your distribution, more specifically whether it is Debian- or Redhat-based. (Ubuntu, for example, is Debian-based and would need a .deb file.)
@@ -96,7 +98,7 @@ conda list
 ```
 This command will print out all the packages that are currently installed in the currently active environment, as well as its version numbers. 
 
-#### DELIVERABLE 2: **Screenshot this and submit it to the courseworks prework assignment.**
+#### DELIVERABLE 3: **Screenshot this and submit it to the courseworks prework assignment.**
 
 
 
@@ -155,7 +157,7 @@ Open up Github in your browser. In the upper-right corner of Github, click your 
 
 Add a title that describes the laptop you’re currently using (e.g. “My Laptop”). In the "Key" field, paste your public key. Click Add SSH key.
 
-#### DELIVERABLE 3: take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
+#### DELIVERABLE 4: take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
 
  
 # Resources
