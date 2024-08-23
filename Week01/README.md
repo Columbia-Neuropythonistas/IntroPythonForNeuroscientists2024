@@ -26,7 +26,7 @@ Please take some time to go through the following videos, so that you have a gen
         2. In the search box, enter Terminal. In the results set select Terminal app, and then press Return to start the app.
     - Windows:
         1. Check that you have windows terminal installed by typing in `terminal` into the search bar. If nothing pops up, please install it [here](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US).
-        2. Check if you have anaconda prompt installed by typing in `anaconda prompt` into the search bar. If not, it is unlikely that you have conda installed. If it does, go directly to the deliverable for the Installing Minconda section.
+        2. Check if you have anaconda prompt installed by typing in `anaconda prompt` into the search bar. If not, it is unlikely that you have conda installed. If you do have anaconda prompt installed, skip the 'installing miniconda' step for now. If you receive errors later on, uninstall anaconda and then reinstall it using our instructions.
     - Linux: 
         1. Open a Linux terminal session. The instructions for opening this session depend on your distribution and version of Linux. Check the online documentation for your Linux distribution for instructions on how to open a terminal session.
 - Check if conda is already installed by typing `conda --version` in terminal and pressing enter.
