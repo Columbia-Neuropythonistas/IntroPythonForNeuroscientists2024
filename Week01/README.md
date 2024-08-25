@@ -105,7 +105,7 @@ This command will print out all the packages that are currently installed in the
 ## Setting UP Github
 ### Make a Github account
 - If you don't have a github account already, go [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to make one. I would recommend using an academic email because students get github pro for free, but you can always add other email addresses to your profile later. 
-- Submit your github username to this [google form]([https://forms.gle/A3DPAa7r9gpPeUku5](https://docs.google.com/forms/d/e/1FAIpQLSeyDYIyPT_14cKQWnAPBvsZPuSZ2pu382yQ3qAsaQjPCMWAjA/viewform?usp=sf_link)).
+- Submit your github username to this [google form](https://forms.gle/A3DPAa7r9gpPeUku5)(https://docs.google.com/forms/d/e/1FAIpQLSeyDYIyPT_14cKQWnAPBvsZPuSZ2pu382yQ3qAsaQjPCMWAjA/viewform?usp=sf_link)).
 
 ### Set up your Github SSH Keys 
 #### What is SSH?
