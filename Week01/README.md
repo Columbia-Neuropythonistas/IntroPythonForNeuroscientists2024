@@ -19,6 +19,9 @@ Please take some time to go through the following videos, so that you have a gen
 4. [Introduction to Conda / Package Managers (Watch the first 6m 56s](https://www.youtube.com/embed/23aQdrS58e0?end=416) and also [the end of the video from 15:50 on)](https://www.youtube.com/embed/23aQdrS58e0?start=950) The remainder of the video is good to watch and provides a good introduction to how we will be using conda in class, but is not necessary if you are short on time.
 
 ## Set up Conda
+
+Windows users - if your username has a space in it (for instance, if your usename is `Python for Neuro`), this will cause issues down the road. Please create a new user account with no spaces or special characters to ensure that everything will run smoothly.
+
 ### Check if Conda is already installed
 - Open terminal using the following instructions for your operating system. (Instructions taken from [this source](https://docs.microsoft.com/en-us/learn/modules/python-install-vscode/)).
     - Mac:
