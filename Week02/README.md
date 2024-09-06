@@ -1,5 +1,35 @@
 # Week 2 -- Intro to Python Part 1
 
+## Class 1 catch-up - fixing Git and getting Jupyter Notebooks to work
+Apologies again for things not working in class. The first thing we need to do is set up our intropython folder through git such that we can push, or upload, our scripts and files to the remote repository we previously set up online. We had an issue in class because we used https instead of ssh to set up our git repo locally, on our computer. If you're curious about how these server protocols work, feel free to come chat with us before class, but for now this is outside the scope of the class.
+
+To set up our folder to work with SSH, we just need to enter a few commands. Please navigate to your intro2python repository folder by opening the terminal and entering the following commands:
+```
+cd documents
+```
+and
+```
+cd intro2python
+```
+To confirm that you're in your new directory, type in:
+```
+git status
+```
+If you receive an error, check that you're in the directory we created during class. If this does not solve the issue, email us so we can troubleshoot. Next, we  will swap over the repository to SSH verification by typing in the following command. All this command does is swap where git tries to upload the files, such that it sends them to an internet address that expects SSH credentials. Make sure to swap <USERNAME> for your username (drop the brackets):
+```
+git remote set-url origin git@github.com:<USERNAME>/intro2python.git
+```
+Now try to upload your files/push them to the online repoistory via:
+```
+git push
+```
+If no error is thrown, you should be set! If you get an error, please email us. You can verify that everything worked by navigating to your repo online and checking to see if you see your files online. 
+#### DELIVERABLE 0: Please submit a screenshot of your repo online to the courseworks assignment.
+
+Now, let's get notebooks to work.
+
+
+
 ## Optional Video on Conda environments and Jupyter Notebook Intro
 
 [Video linked here](https://www.youtube.com/watch?v=LCOINLVBVmM)
@@ -29,30 +59,6 @@ i. markdown cell
 Like last week, if you run into issues please contact us before class. Please upload a screenshot of the problem you are running into to the relevant assignment on courseworks so we can help you debug.
 
 
-### 0. Class 1 catch-up - fixing Git and getting Jupyter Notebooks to work
-Apologies again for things not working in class. The first thing we need to do is set up our intropython folder through git such that we can push, or upload, our scripts and files to the remote repository we previously set up online. We had an issue in class because we used https instead of ssh to set up our git repo locally, on our computer. If you're curious about how these server protocols work, feel free to come chat with us before class, but for now this is outside the scope of the class.
-
-To set up our folder to work with SSH, we just need to enter a few commands. Please navigate to your intro2python repository folder by opening the terminal and entering the following commands:
-```
-cd documents
-```
-and
-```
-cd intro2python
-```
-To confirm that you're in your new directory, type in:
-```
-git status
-```
-If you receive an error, check that you're in the directory we created during class. If this does not solve the issue, email us so we can troubleshoot. Next, we  will swap over the repository to SSH verification by typing in the following command. All this command does is swap where git tries to upload the files, such that it sends them to an internet address that expects SSH credentials. Make sure to swap <USERNAME> for your username (drop the brackets):
-```
-git remote set-url origin git@github.com:<USERNAME>/intro2python.git
-```
-Now try to upload your files/push them to the online repoistory via:
-```
-git push
-```
-If no error is thrown, you should be set! If you get an error, please email us. You can verify that everything worked by navigating to your repo online and checking to see if you see your files online.
 
 
 
