@@ -40,7 +40,8 @@ Next, open the intro2python folder by clicking open folder. Once you've done thi
 
 #### DELIVERABLE 2: Please submit a screenshot of the working notebook after you run a cell of code. If it does not work, please email us so we can troubleshoot.
 
-## Optional Video on Conda environments and Jupyter Notebook Intro
+## Optional Extra Work and Resources
+### Video on conda and jupyter notebooks
 
 [Video linked here](https://www.youtube.com/watch?v=LCOINLVBVmM)
 
