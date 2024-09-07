@@ -24,15 +24,26 @@ Now try to upload your files/push them to the online repoistory via:
 git push
 ```
 If no error is thrown, you should be set! If you get an error, please email us. You can verify that everything worked by navigating to your repo online and checking to see if you see your files online. 
-#### DELIVERABLE 0: Please submit a screenshot of your repo online to the courseworks assignment.
+#### DELIVERABLE 1: Please submit a screenshot of your repo online to the courseworks assignment.
 
-Now, let's get notebooks to work.
+Now, let's get notebooks to work. There's a few reasons why we weren't able to run our notebooks, so let's try to set things up properly. I've attached a video that goes through the process visually (click on the image below), but written instructions are also provided below.
 
+[![YouTube](http://i.ytimg.com/vi/BZCkYN2GDHU/hqdefault.jpg)](https://www.youtube.com/watch?v=BZCkYN2GDHU)
 
+First, open up vscode. If you are able to use 
+```
+code . 
+```
+that's great! If not, please come talk to us before or after class. If this doesn't work for you, please add a comment to your assignment with the error that you get (a screenshot would be great). Then, open VSCode manually.
+
+Next, open the intro2python folder by clicking open folder. Once you've done this create a new file, with the extention `.ipynb`. You can see in the video that I do this automatically, but it's alright if this doesn't work for you. Just make sure to rename the file so that it ends with `.ipynb`. Once you've done this, it will be important to tell VSCode to use Python. To do this, we will select a python interpreter by typing in control-shift-P (on mac, command-shift-P) to open up the command palette on the top. We can then scroll through and find `python: select interpreter`. Once you've clicked on this, select the intropython environment. You can now try to run a line of code in the notebook you've created (see an example in the video), and it may prompt you again to choose a kernel. Click on intropython again, and you should be able to run the code. NOTE: you may run into an issue where VSCode asks you to install some extentions. Go ahead and do this, and then restart VSCode.
+
+#### DELIVERABLE 2: Please submit a screenshot of the working notebook after you run a cell of code. If it does not work, please email us so we can troubleshoot.
 
 ## Optional Video on Conda environments and Jupyter Notebook Intro
 
 [Video linked here](https://www.youtube.com/watch?v=LCOINLVBVmM)
+
 ### Optional extra credit work:
 1. Create and run a jupyter notebook, ensuring you have selected the “intropython” environment kernel
 
@@ -51,11 +62,8 @@ i. markdown cell
 
       import numpy
 
-3. Take a screenshot of the notebook after executing all the cells, showing that there are no output errors and that you have the correct environment kernel selected. **Include in your Week02 coursework assignment for extra credit.**
+3. Take a screenshot of the notebook after executing all the cells, showing that there are no output errors and that you have the correct environment kernel selected. **Include in your Week02/HW1 coursework assignment for extra credit.**
 
-
-
-## Pre-Work
 Like last week, if you run into issues please contact us before class. Please upload a screenshot of the problem you are running into to the relevant assignment on courseworks so we can help you debug.
 
 
