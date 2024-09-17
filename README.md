@@ -42,7 +42,7 @@ Schedule (subject to change):
   <tr>
     <td class="tg-0pky"><a href="https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/tree/main/Week02" target="_blank" rel="noopener noreferrer">Week 2</a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> (9/10)</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Python Basics:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Why use python?</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Data Types &amp; Variables (float, int, str, list, dict, tuple)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Booleans &amp; If/Else</span><br></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sharon</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sam</span></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Schedule (subject to change):
   <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 5 (10/1)</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Numpy: </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Why do we need numpy?</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Basic numpy functionalty</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- How to manipulate and read out arrays</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- How to solve mathematical problems in Python.</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Abhi</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sharon</span></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
