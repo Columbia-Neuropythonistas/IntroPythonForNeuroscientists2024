@@ -46,13 +46,13 @@ Schedule (subject to change):
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Week 3<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> (9/17)</span></td>
+    <td class="tg-0pky"><a href="https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/tree/main/Week03" target="_blank" rel="noopener noreferrer">Week 3<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> (9/17)</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Python Basics:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Lists </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Dictionaries</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Tuples </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- For Loops </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- List Comprehension </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Enumerate </span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sharon</span></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 4 (9/24)</span></td>
+    <td class="tg-0pky"><a href="https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/tree/main/Week04" target="_blank" rel="noopener noreferrer"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 4 (9/24)</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Python Basics: </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- While Loops </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Functions </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- return </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- *args and **kwargs </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Errors</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Try/Except</span><br>
     <span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Typehinting/Docstrings</span>
     </td>
@@ -60,7 +60,7 @@ Schedule (subject to change):
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 5 (10/1)</span></td>
+    <td class="tg-0pky"><a href="https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/tree/main/Week05" target="_blank" rel="noopener noreferrer"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 5 (10/1)</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Numpy: </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Why do we need numpy?</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Basic numpy functionalty</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- How to manipulate and read out arrays</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- How to solve mathematical problems in Python.</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sharon</span></td>
     <td class="tg-0pky"></td>
@@ -72,7 +72,7 @@ Schedule (subject to change):
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 6 (10/15)</span></td>
+    <td class="tg-0pky"><a href="https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2024/tree/main/Week06" target="_blank" rel="noopener noreferrer"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 6 (10/15)</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pandas and Data Visualization:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Why is Pandas useful, and why do we need it for data science in Python?</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- How do we use Pandas to manipulate data?</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- How can we load and save data in pandas?</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- How can we plot basic data in Python?</span><br></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sam</span></td>
     <td class="tg-0pky"></td>
