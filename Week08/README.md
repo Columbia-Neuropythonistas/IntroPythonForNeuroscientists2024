@@ -1,5 +1,10 @@
-# Data visualization and Object-Oriented Programming
+# Object-Oriented Programming + A Gentle Introduction To Machine Learning
 
-Please extract the zip folder to access sst_data.csv, which contains the data used in this week's lesson!
+This week, we're going to continue to go delve into the wonders (yeah, not really) of Object-Oriented Programming in Python.
 
-Keys for both class and homework are also provided.
+Please download the `PfN_Week8_OOP+Data_STUDENT.ipynb` notebook, as well as `recording.npy` and place them in the same folder.
+
+
+## Homework this week (e.g. for Week 9)
+
+Please go through the HW8 notebook and turn in deliverables to courseworks. A key is also posted ... but like don't cheat lol plz just use it if you're stuck
